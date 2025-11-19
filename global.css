@@ -142,6 +142,7 @@ body{
 
 .hero{
     display: flex;
+    /* width: 100%; */
     flex-direction: column;
     align-items: flex-start;
     gap: 2rem;
@@ -180,8 +181,6 @@ body{
 .skills .skills-container{
     display: flex;
     gap: 97px;
-    width: 860px;
-    height: 340px;
     flex-wrap: wrap;
 }
 
