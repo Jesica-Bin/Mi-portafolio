@@ -83,8 +83,7 @@ input:focus, textarea:focus{
 body{
     font-family: "Inter", sans-serif;
     font-size: 16px;
-    background-image: url('img/Version\ mobile.png');
-    background-size: cover;
+    background: url('img/Version\ mobile.png') no-repeat center/cover;
     color: #efefef;
     line-height: 1.5;
 }
