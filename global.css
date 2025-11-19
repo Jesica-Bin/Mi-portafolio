@@ -91,6 +91,7 @@ body{
 
 .navBar{
     position: fixed;
+    z-index: 200;;
     font-size: 18px;
     font-weight: 500;
     width: 100%;
@@ -185,11 +186,22 @@ body{
 }
 
 .skills-container div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 138px;
     height: 142px;
-    border: 1px solid #EAEFFE;
+    border: 1px solid #EAEFFE33;
     border-radius: 24px;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(20px);
 }
+
+.skills-container div img{
+    width: 90px;
+    height: 94px;
+}
+
 
 .projects{
     display: flex;
