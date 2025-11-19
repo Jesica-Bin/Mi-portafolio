@@ -162,7 +162,6 @@ body{
 
 .about-me{
     text-align: center;
-    margin: 153px 319px;
     display: flex;
     flex-direction: column;
     gap: 56px;
@@ -175,7 +174,6 @@ body{
     flex-direction: column;
     justify-content: center;
     gap: 64px;
-    margin: 0 210px;
 }
 
 .skills .skills-container{
@@ -223,7 +221,6 @@ body{
 }
 .contact{
     text-align: center;
-    margin: 0 24px;
     display: flex;
     flex-direction: column;
     gap: 32px;
