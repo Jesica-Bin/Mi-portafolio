@@ -39,6 +39,9 @@ h4{
     font-weight: 500;
 }
 
+input{
+
+}
 
 body{
     font-family: "Inter", sans-serif;
@@ -56,7 +59,7 @@ body{
     width: 100%;
     height: 58px;
     padding: 12px 0;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #efefef;
     background-color: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(20px);
     display: flex;
@@ -111,29 +114,14 @@ body{
 .hero .info-hero{
     display: flex;
     flex-direction: column;
+    gap: 4rem;
 }
 
-.hero .info-hero h2{
-    font-size: 32px;
-    font-weight: 700;
-    margin-top: 18px;
-}
-.hero .info-hero p{
-    margin-top: 16px;
-}
-.hero .btns{
+.hero .btns-container{
     display: flex;
     gap: 28px;
 }
-.hero .btns button{
-    width: 237px;
-    height: 43px;
-    background: var(--primary-color);
-    border-radius: 8px;
-    color: #0d0f13;
-    font-size: 16px;
-    font-weight: 700;
-}
+
 .about-me{
     text-align: center;
     margin: 153px 319px;
@@ -192,3 +180,20 @@ footer{
     background-color: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(20px);
 }
+
+
+
+@media screen and (min-width: 768px) {
+    /* Barra de navegacion*/
+    .navBar .hamburger {
+        display: none;
+    }
+    .nav-items{
+        position: static;
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        width: auto;
+        background-color: transparent;
+        opacity: 1;
+    }
